@@ -16,4 +16,7 @@ Paso 6: Para realizar cambios en el servidor. Debe tener permiso de escritura en
 	git commit -m "Cambios de prueba"
 	git push
 	git pull
+
+Paso 7: Verificar si hay cambios en el repositorio local. 
+	git status
 	
