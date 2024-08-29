@@ -1,0 +1,19 @@
+Paso 1. Verificar la auth de usuario.  OK
+Paso 2. Verificar que este GitHub instalado OK 
+Paso 2. Solo aplica si es la primera vez que usa GitHub en el pc
+	git config --global user.name "Jesús Ariel González Bonilla" ok
+	git config --global user.email johndoe@example.com ok
+Paso 3: Crear el repositorio en el GitHub con el nombre sugerido "prueba_git_estructura"
+	https://github.com/ariel5253/prueba_git_estructura.git
+Paso 4: Clonar el repositorio, debe seleccionar la ruta en el PC, dónde se dejará el repositorio. 
+	git clone https://github.com/ariel5253/prueba_git_estructura.git
+
+Paso 5: Únicamente para obtener cambios del servidor.
+
+Paso 6: Para realizar cambios en el servidor. Debe tener permiso de escritura en el repositorio.
+	git pull
+	git add -A
+	git commit -m "Cambios de prueba"
+	git push
+	git pull
+	
